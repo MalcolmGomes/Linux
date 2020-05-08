@@ -1,0 +1,41 @@
+Linux Terminal: Useful Commands
+
+uname: 	System information.
+	-a Host name, Kernel, etc
+	-v Kernel Version
+
+ip addr show: Shows networking information
+
+df:	Tells you about the free space on drives on system
+	-ah: All devices, Human readable
+
+du:	See disk usage of directory
+
+netstat -tulpn : See what network stuff is running on what ports and address.
+
+ps aux:	Provides process information
+	Use pipe and grep to specify process name. Ex: ps aux | grep nginx
+
+top:	Show processes and their CPU/Memory usage
+
+htop:	Similar to top but more tools
+
+mount:	Use to mount a new volume on a system
+
+man:	Takes you to man page for given command.
+
+
+--------------- Useful Linux Commands: -----------------
+
+1.  killall process_name: 	Kills process
+2.  touch:			Creates files.
+3.  which:			Tells you where a program installed on the system
+4.  ping:			Send packet of information to given site.
+5.  less:			Use to display contents of large files.
+6.  blikd:			Shows drives and their UUIDs
+8.  lsblk:			Shows drives and mount locations. 
+7.  sudo -s			Logs you in as root user
+8.  su user_name		Log into another account on the system
+9.  sudo reboot			Restart the system (Can open a terminal with Ctrl+Alt+T and run reboot)
+10. sudo shutdown -h 15		Shutdown the system in 15 minutes. 'sudo shutdown -c' cancels shutdown.
+
